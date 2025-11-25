@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Award, Target, Users, TrendingUp, Heart, Star } from 'lucide-react'
+import { Target, Users, TrendingUp, Heart, Star } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
 export default function About() {
