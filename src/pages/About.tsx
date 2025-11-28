@@ -30,11 +30,11 @@ export default function About() {
     {
       name: 'Firas Syed',
       role: 'Founder & Head Coach',
-      bio: 'Former professional player with extensive coaching credentials. Specializes in technical development and tactical awareness.',
+      bio: 'Highly qualified coach specializing in elite technical development and advanced tactical awareness.',
       image: '/IMG_3250.jpg',
     },
     {
-      name: 'habib dbouk',
+      name: 'Habib dbouk',
       role: 'Head Coach',
       bio: 'Former BC futsal player with a decade of playing experience, specialising in technique refinement and youth development.',
       image: '/WhatsApp Image 2025-11-12 at 20.25.36.jpeg',
@@ -81,15 +81,14 @@ export default function About() {
                 delivers results.
               </p>
               <p className="text-lg text-gray-600 mb-4">
-                We offer three specialized programs to meet diverse needs:
+                We offer two specialized programs to meet diverse needs:
               </p>
               <ul className="text-lg text-gray-600 mb-4 space-y-2 list-disc list-inside">
                 <li><strong>Recreational Training ($25/session)</strong> - Perfect for players who want to enjoy the game, build fundamental skills, and have fun in a supportive environment.</li>
                 <li><strong>Competitive Training ($35/session)</strong> - Designed for players looking to compete at higher levels, with advanced techniques, tactical awareness, and performance analysis.</li>
-                <li><strong>Kids with Disabilities - Autism Specialized ($45/session)</strong> - Our specialized program for children with autism and other disabilities, featuring sensory-friendly coaching, individualized pacing, and inclusive skill development.</li>
               </ul>
               <p className="text-lg text-gray-600">
-                No matter your age, skill level, or unique needs, we're here to guide your journey and help you reach your full potential.
+                No matter your age or skill level, we're here to guide your journey and help you reach your full potential.
               </p>
             </motion.div>
 
@@ -180,6 +179,11 @@ export default function About() {
                       alt={coach.name}
                       className="w-full h-full object-cover object-top"
                       style={{ objectPosition: 'center top' }}
+                      loading="lazy"
+                      onError={(e) => {
+                        const target = e.target as HTMLImageElement
+                        target.style.display = 'none'
+                      }}
                     />
                   </div>
                 ) : (

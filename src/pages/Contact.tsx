@@ -7,8 +7,8 @@ export default function Contact() {
     {
       icon: Mail,
       title: 'Email',
-      content: 'info@primeplayerlab.com',
-      link: 'mailto:info@primeplayerlab.com',
+      content: 'primeplayerlab@gmail.com',
+      link: 'mailto:primeplayerlab@gmail.com',
     },
     {
       icon: MapPin,

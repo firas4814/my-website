@@ -85,7 +85,7 @@ export default function Layout({ children }: LayoutProps) {
       </nav>
 
       {/* Main Content */}
-      <main>{children}</main>
+      <main className="w-full">{children}</main>
     </div>
   )
 }
