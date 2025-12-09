@@ -34,7 +34,7 @@ export default function About() {
       image: '/IMG_3250.jpg',
     },
     {
-      name: 'Habib dbouk',
+      name: 'Habib Dbouk',
       role: 'Head Coach',
       bio: 'Former BC futsal player with a decade of playing experience, specialising in technique refinement and youth development.',
       image: '/WhatsApp Image 2025-11-12 at 20.25.36.jpeg',
